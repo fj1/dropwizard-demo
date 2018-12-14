@@ -28,4 +28,6 @@ The tests are then viewable at `.../dropwizard-demo/build/reports/tests/test/ind
 Once the services are started, you can access:
 * application: http://localhost:8080/ (no content)
 * admin panel: http://localhost:8081/
-* newly added resource: http://localhost:8080/myresource
+* newly added resources
+  * GET http://localhost:8080/myresource
+  * POST can test in Postman with http://localhost:8080/myresource/postexample
